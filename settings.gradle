@@ -1,1 +1,9 @@
 rootProject.name = 'games'
+include 'test'
+include 'blackjack'
+include 'blackjack'
+include 'fouinarow'
+include 'fourinarow'
+include 'connect'
+include 'connectfour'
+
