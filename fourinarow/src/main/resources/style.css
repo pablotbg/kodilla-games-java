@@ -1,0 +1,11 @@
+Button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: 'Arial Black';
+    -fx-font-size: 22px;
+    -fx-effect: dropshadow(one-pass-box, black, 10, 0.4, 0, -1);
+}
+
+StackPane {
+    -fx-padding: 5px;
+}
