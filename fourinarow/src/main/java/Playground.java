@@ -96,8 +96,12 @@ public class Playground extends Pane {
     }
 
     public void gameOver() {
+
+        String win = winner==1 ? "Human" : "Computer";
+
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.setTitle("Four In A Row");
+        dialog.setHeaderText("The Winner Is " + win);
         dialog.setContentText("Do you want to play again?");
         ButtonType yesButton = new ButtonType("Yes");
         ButtonType noButton = new ButtonType("No, Exit");
